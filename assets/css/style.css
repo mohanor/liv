@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    height: 50px;
+    background-color: grey;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.menu > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 100%;
+}
+
+.list {
+    display: none;
+}
+
+.logo {
+    height: 55%;
+    margin: 11px 0;
+}
+
+.logo-parent {
+    height: 50px;
+    padding: 0px;
+}
+
+.header {
+    display: grid;
+    place-content: center;
+    background-color: rgb(170, 170, 83);
+    /* background-image: url(../media/mobile.png); */
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 50px;
+    position: relative;
+}
+
+/* .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: red;
+} */
+
+h1 {
+    font-size: min(9vw, 75px);
+}
+
+.search-input {
+    width: 65%;
+    height: 100%;
+    padding: 5px 15px;
+    font-size: 15px;
+    border: none;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.submit {
+    border: none;
+    height: 100%;
+    background: #62277f;
+    color: white;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.card {
+    height: 350px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(201 201 201);
+    padding-bottom: 50px;
+}
+
+.logo-footer {
+    height: 46px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
