@@ -1,12 +1,5 @@
 
 @media only screen and (min-width: 576px) {
-    .col-space {
-        width: 100%;
-        height: 100%;
-        background-color: #62277f;
-    }
-
-    
     .container, .container-sm {
         max-width: 100%;
     }
