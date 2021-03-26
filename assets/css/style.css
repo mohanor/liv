@@ -136,12 +136,12 @@ h1 {
 }
 
 .card {
-    height: 365px;
+    height: 430px;
 }
 
 .card-img {
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
     /* object-position: center; */
     object-position: right;
