@@ -94,7 +94,29 @@ h1 {
 }
 
 .card {
-    height: 350px;
+    height: 365px;
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.txt-center {
+    text-align: center;
+    color: #ffffff;
+}
+
+.name {
+    padding: 15px;
+}
+
+.del-rat {
+    display: flex;
+    justify-content: space-around;
+    padding: 6px 0;
 }
 
 .text-center {
