@@ -1,15 +1,25 @@
 
 @media only screen and (min-width: 576px) {
-    /* .col-space {
+    .col-space {
         width: 100%;
         height: 100%;
         background-color: #62277f;
-    } */
+    }
+
+    
+    .container, .container-sm {
+        max-width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
     .header {
         /* background-image: url(../media/desctop.png); */
+    }
+
+    .container, .container-md, .container-sm {
+        max-width: 720px;
     }
 
     .card-img {
@@ -78,4 +88,17 @@
         display: block;
     }
     /* end contact */
+}
+
+@media (min-width: 992px) {
+ .container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}   
+}
+
+
+@media (min-width: 1200px) {
+ .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
 }
