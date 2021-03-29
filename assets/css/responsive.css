@@ -83,6 +83,16 @@
         display: block;
     }
     /* end contact */
+
+    /* start footer */
+
+    .col-pd {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* end footer */
 }
 
 @media (min-width: 992px) {

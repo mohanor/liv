@@ -263,6 +263,12 @@ h1 {
     list-style-type: none;
 }
 
+.footer-list li {
+    padding: 5px;
+}
+
 .col-pd {
-    padding-left: 150px;
+    /* padding-left: 150px; */
+    text-align: center;
+    margin: 18px 0;
 }
