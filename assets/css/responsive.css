@@ -8,7 +8,7 @@
 
 @media only screen and (min-width: 768px) {
     .header {
-        /* background-image: url(../media/desctop.png); */
+        background-image: url(../media/Untitled-1.png);
     }
 
     .container, .container-md, .container-sm {
@@ -50,6 +50,8 @@
 
     .list a {
         text-decoration: none;
+        font-size: 18px;
+        color: #61257f;
     }
 
     /* start contact */
@@ -84,14 +86,18 @@
 }
 
 @media (min-width: 992px) {
- .container, .container-lg, .container-md, .container-sm {
-    max-width: 960px;
-}   
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
 }
 
 
 @media (min-width: 1200px) {
- .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1140px;
-}
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+
+    .menu > div {
+        padding: 0 106px;
+    }
 }
