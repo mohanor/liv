@@ -93,6 +93,14 @@
     }
 
     /* end footer */
+
+    /* call btn */
+
+    .section-call {
+        display: none;
+    }
+
+    /* end call btn */
 }
 
 @media (min-width: 992px) {
